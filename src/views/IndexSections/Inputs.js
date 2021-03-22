@@ -38,23 +38,23 @@ class Inputs extends React.Component {
         <section className="section pb-0 section-components">
           <Container className="mb-5">
             {/* Inputs */}
-            <h3 className="h4 text-success font-weight-bold mb-4">Inputs</h3>
+            {/* <h3 className="h4 text-success font-weight-bold mb-4">Inputs</h3> */}
             <div className="mb-3">
-              <small className="text-uppercase font-weight-bold">
+              {/* <small className="text-uppercase font-weight-bold">
                 Form controls
-              </small>
+              </small> */}
             </div>
             <Row>
-              <Col lg="4" sm="6">
-                <FormGroup>
+              {/* <Col lg="4" sm="6"> */}
+                {/* <FormGroup>
                   <Input placeholder="Regular" type="text" />
-                </FormGroup>
-                <FormGroup
+                </FormGroup> */}
+                {/* <FormGroup
                   className={classnames({
                     focused: this.state.searchFocused
                   })}
-                >
-                  <InputGroup className="mb-4">
+                > */}
+                  {/* <InputGroup className="mb-4">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
                         <i className="ni ni-zoom-split-in" />
@@ -66,48 +66,48 @@ class Inputs extends React.Component {
                       onFocus={() => this.setState({ searchFocused: true })}
                       onBlur={() => this.setState({ searchFocused: false })}
                     />
-                  </InputGroup>
-                </FormGroup>
-              </Col>
+                  </InputGroup> */}
+                {/* </FormGroup> */}
+              {/* </Col> */}
               <Col lg="4" sm="6">
-                <FormGroup>
+                {/* <FormGroup>
                   <Input disabled placeholder="Regular" type="text" />
-                </FormGroup>
+                </FormGroup> */}
                 <FormGroup
                   className={classnames({
                     focused: this.state.birthdayFocused
                   })}
                 >
                   <InputGroup className="mb-4">
-                    <Input
+                    {/* <Input
                       placeholder="Birthday"
                       type="text"
                       onFocus={() => this.setState({ birthdayFocused: true })}
                       onBlur={() => this.setState({ birthdayFocused: false })}
-                    />
+                    /> */}
                     <InputGroupAddon addonType="append">
-                      <InputGroupText>
+                      {/* <InputGroupText>
                         <i className="ni ni-zoom-split-in" />
-                      </InputGroupText>
+                      </InputGroupText> */}
                     </InputGroupAddon>
                   </InputGroup>
                 </FormGroup>
               </Col>
               <Col lg="4" sm="6">
-                <FormGroup className="has-success">
+                {/* <FormGroup className="has-success">
                   <Input
                     className="is-valid"
                     placeholder="Success"
                     type="text"
-                  />
-                </FormGroup>
-                <FormGroup className="has-danger">
+                  /> */}
+                {/* </FormGroup> */}
+                {/* <FormGroup className="has-danger">
                   <Input
                     className="is-invalid"
                     placeholder="Error Input"
                     type="email"
                   />
-                </FormGroup>
+                </FormGroup> */}
               </Col>
             </Row>
           </Container>
